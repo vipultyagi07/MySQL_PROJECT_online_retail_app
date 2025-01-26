@@ -1,1 +1,0 @@
-MySQL_PROJECT_online_retail_app
