@@ -7,5 +7,10 @@
 --  1. List all the tables in the database.
 	use online_retail_app; 
     SHOW tables;
+    
+--  2. Describe the structure of the `Users` table.
+
+    desc online_retail_app.Users;
+
 
 
