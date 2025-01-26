@@ -116,7 +116,7 @@ There are two-way to set up the project
 
 Now you are all set to do the questions
 
-### 2.  follow `StepX`
+### 2.  follow `StepX` (skip this if you have followed the above setup)
 
 create the database manually
 ```bash
