@@ -140,9 +140,39 @@ save this file [order_online_app_import.sql](StepX%2Forder_online_app_import.sql
 
 [How to import the whole tables with data](https://youtu.be/q0EBUXTQQRY?si=b4XEQlqupWjHeaE5&t=2)
 
-## D: This is the ER diagram
+## D: to run query in terminal
 
 
-![online_retail_app_ER_dig.png](online_retail_app_ER_dig.png)
+```bash
+ mysql -u root -p
+```
+
+Replace `root` with your MySQL username if it's different, then enter your MySQL `password` when prompted.
+
+```bash
+show databases;
+```
+
+```bash
+use online_retail_app;
+```
+
+```bash
+show tables;
+```
+
+```bash
+SELECT * FROM online_retail_app.Users limit 10;
+```
+
+```bash
+exit;
+```
+
+
+## E: This is the ER diagram
+
+
+![online_retail_app_ER_dig.png](projectResources/online_retail_app_ER_dig.png)
 
 
